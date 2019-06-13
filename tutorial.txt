@@ -1,0 +1,16 @@
+BUILD A NODE.JS WITH SEQUELIZE :
+
+1. $ npm init
+2. $ npm install --save express body-parser sequelize mysql express-handlebars
+3. $ npm i -D nodemon
+4. buka package.json, ubah script menjadi
+	"scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+5. buat index
+6. jalankan dengan npm run dev dan buka localhost sesuai dengan port server
+
+SEQUELIZE
+1. $ npm install --save sequelize
+2. $ npm install --save mysql2
